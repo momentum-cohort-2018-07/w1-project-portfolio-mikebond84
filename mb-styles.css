@@ -1,0 +1,132 @@
+}
+.header {
+  position:absolute;
+}
+.hire-me {
+  padding:3px 2px;
+  border-radius:10%;
+  margin:50px 0 30px 0;
+}
+
+.hero-image::before {
+  background-image:url(https://cdn.glitch.com/c8427aa8-c924-40ec-982e-cdb5d86c50e2%2Fcroatan.jpg?1533536250989);
+  background-size:cover;
+  content:"";
+  display: block;
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: .4;
+}
+
+.hero-image {
+  height: 500px;
+  background-size:cover;
+  width:100%;
+  padding:10px;
+  position: relative; top: -3px; 
+  background-image: url(https://cdn.glitch.com/c8427aa8-c924-40ec-982e-cdb5d86c50e2%2Fcroatan.jpg?1533536250989);
+  background-repeat: no-repeat;
+  margin:50px 0;
+}
+
+ #name {
+  font-size: 50px;
+  max-height: 50px;
+  color:#3B3561;
+  padding:110px 0 0 0;
+  text-align:center;
+}
+  
+
+.nav a {
+  font-size: 30px;
+  text-decoration: none;
+  text-align:center;
+}
+
+.footer {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  margin: 25px 0;
+}
+
+.hero-text {
+  font-size: 50px;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  color: #EAD94C;
+  padding:80px 0 0 0;
+}
+
+.content {
+  size:400px 600px;
+  position:relative;
+  margin:10px auto;
+  
+}
+
+.me {
+  padding: 40px;
+  width: 350px;
+  border-radius: 50%;
+  position:relative;
+  display:block;
+  clear:both;
+  float:none;
+  margin:10px auto;
+}
+
+.jureles {
+  width: 45%;
+  size:400px 600px;
+  position:relative;
+  display:block;
+  float:none;
+  margin:20px auto;
+  clear:both;
+  background-image:url(https://cdn.glitch.com/c8427aa8-c924-40ec-982e-cdb5d86c50e2%2Fjureles.jpg?1533603665880);
+}
+
+.thinking {
+  width: 45%;
+  size:400px 600px;
+  display:block;
+  position:relative;
+  float:none;
+  margin:20px auto;
+  background-image:url(https://cdn.glitch.com/c8427aa8-c924-40ec-982e-cdb5d86c50e2%2Fmischievous.jpg?1533565186160);
+}
+
+.resume {
+  width: 45%;
+  size:400px 600px;
+  display:block;
+  float:none;
+  position:relative;
+  margin:20px auto;
+}
+
+
+.navigation {
+  text-decoration: none;
+  text-align: center;
+  font-size:32px;
+  margin:200px;
+  color:aliceblue;
+  position:relative;}
+
+
+.home {
+  position:relative;
+  width: 45%;
+  size:400px 600px;
+  display:block;
+  float:none;
+  margin:20px auto;
+}
